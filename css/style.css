@@ -1,0 +1,423 @@
+html {
+  font-size: 15px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+span {
+  float: right;
+  border: 1px solid gray;
+  padding: 3px 10px;
+  margin: 18px 20px;
+  border-radius: 5px;
+}
+
+.inner {
+  max-width: 1200px;
+  padding: 50px 15px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.flex-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.lorem {
+  font-size: 15px;
+  line-height: 25px;
+}
+
+header nav img {
+  float: left;
+  margin: 20px 20px;
+}
+header nav ul {
+  float: right;
+}
+header nav ul li {
+  float: left;
+  list-style: none;
+  margin: 20px 20px;
+}
+header nav ul li a {
+  text-decoration: none;
+  font-size: 17px;
+  color: black;
+}
+header nav ul li a:hover {
+  text-decoration: underline;
+  color: #8d18de;
+}
+header nav .fa {
+  float: right;
+  display: none;
+}
+
+.banner {
+  width: 100%;
+  background: url("../img/banner-bg.png");
+  height: 500PX;
+  clear: both;
+}
+.banner .banner-text {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  top: 130px;
+  color: white;
+}
+.banner .banner-text h1 {
+  font-size: 50px;
+  font-weight: 800;
+}
+.banner .banner-text h2 {
+  font-size: 30px;
+  font-weight: 500px;
+}
+.banner .banner-text .read-more-blue {
+  width: 150px;
+  height: 50px;
+  color: #8d18de;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  margin-top: 25px;
+  border: 0px;
+}
+.banner .banner-text .read-more-blue:hover {
+  background-color: #d102ff;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.about-web-elements {
+  width: 70%;
+}
+.about-web-elements h1 {
+  font-size: 40px;
+}
+.about-web-elements .image img {
+  width: 100%;
+}
+.about-web-elements .read-more-black {
+  width: 150px;
+  height: 50px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  margin-top: 25px;
+  border: 0px;
+  border-radius: 15px;
+  background-color: #8d18de;
+}
+.about-web-elements .read-more-black:hover {
+  background-color: black;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.bigwrpper {
+  width: 100%;
+  background-color: rgb(249, 249, 249);
+}
+.bigwrpper .second-banner .services {
+  width: 55%;
+  text-align: center;
+  margin: 0 auto;
+}
+.bigwrpper .second-banner .services h1 {
+  font-size: 40px;
+}
+.bigwrpper .second-banner .second-banner-end .left {
+  width: 30%;
+}
+.bigwrpper .second-banner .second-banner-end .center {
+  width: 30%;
+}
+.bigwrpper .second-banner .second-banner-end .right {
+  width: 30%;
+}
+.bigwrpper .second-banner h1 {
+  font-size: 20px;
+}
+
+.form-image form {
+  background-color: #4323b1;
+  padding: 40px 20px 20% 20px;
+  width: 48%;
+}
+.form-image form .form-box {
+  width: 95%;
+  height: 17%;
+}
+.form-image form .textarea-box {
+  width: 95%;
+  height: 30%;
+}
+.form-image form button {
+  width: 150px;
+  height: 55px;
+  font-size: 18px;
+  background-color: #8d18de;
+  color: white;
+  border: 0;
+}
+.form-image form button:hover {
+  background-color: white;
+  color: black;
+}
+.form-image form h1 {
+  color: white;
+}
+.form-image .image2 {
+  width: 48%;
+}
+.form-image .image2 img {
+  width: 100%;
+}
+
+.last-section {
+  width: 50%;
+}
+.last-section .last-section-text h1 {
+  font-size: 40px;
+}
+.last-section h2 {
+  font-size: 30px;
+  font-weight: 500;
+  font-style: italic;
+}
+.last-section .lorem-italic {
+  font-style: italic;
+  line-height: 25px;
+}
+
+.bigwrapper2 {
+  width: 100%;
+  background-image: url("../img/footer-bg.png");
+}
+.bigwrapper2 .last-banner .last-banner-text {
+  padding-bottom: 3%;
+}
+.bigwrapper2 .last-banner .last-banner-text h1 {
+  font-size: 40px;
+  color: white;
+}
+.bigwrapper2 .last-banner .social-icon img {
+  padding: 1%;
+}
+
+.orem {
+  line-height: 25px;
+}
+
+footer p {
+  font-weight: 500;
+  display: inline;
+}
+footer .fa {
+  font-size: 25px;
+  background-color: aqua;
+}
+
+@media only screen and (max-width: 992px) {
+  header nav ul {
+    display: block;
+    position: absolute;
+    top: 50px;
+    background-color: red;
+  }
+  header nav .fa {
+    float: right;
+    display: block;
+    font-size: 30px;
+    border: 1px solid gray;
+    padding: 5px 10px;
+    border-radius: 7px;
+    margin: 16px 20px;
+  }
+  .last-section {
+    width: 100%;
+  }
+  .last-section .last-section-text h1 {
+    font-size: 40px;
+  }
+  .last-section h2 {
+    font-size: 30px;
+    font-weight: 500;
+    font-style: italic;
+  }
+  .last-section .lorem-italic {
+    font-style: italic;
+    line-height: 25px;
+  }
+  .about-web-elements {
+    width: 100%;
+  }
+  .bigwrpper .second-banner .services {
+    width: 100%;
+  }
+  .form-image form {
+    width: 100%;
+    padding: 5% 5% 35% 5%;
+  }
+  .form-image .image2 {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .banner .banner-text {
+    position: relative;
+    top: 140px;
+  }
+  .banner .banner-text h1 {
+    font-size: 40px;
+  }
+  .banner .banner-text h2 {
+    font-size: 20px;
+  }
+  .about-web-elements h1 {
+    font-size: 30px;
+  }
+  .bigwrpper .second-banner .services h1 {
+    font-size: 30px;
+  }
+  .last-section .last-section-text h1 {
+    font-size: 30px;
+  }
+  .bigwrapper2 .last-banner .last-banner-text h1 {
+    font-size: 22px;
+  }
+  .bigwrpper .second-banner .second-banner-end .left {
+    width: 100%;
+  }
+  .bigwrpper .second-banner .second-banner-end .center {
+    width: 100%;
+  }
+  .bigwrpper .second-banner .second-banner-end .right {
+    width: 100%;
+  }
+  .banner .banner-text {
+    position: relative;
+    top: 150px;
+  }
+  .orem {
+    line-height: 25px;
+  }
+  .last-section .lorem-italic {
+    text-align: justify;
+  }
+}
+@media only screen and (max-width: 553px) {
+  .banner .banner-text h1 {
+    font-size: 35px;
+  }
+  .banner .banner-text h2 {
+    font-size: 17px;
+  }
+  .orem {
+    line-height: 25px;
+    text-align: justify;
+  }
+  .last-section .lorem-italic {
+    text-align: justify;
+  }
+  .form-image form {
+    padding: 10% 5% 48% 5%;
+  }
+}
+@media only screen and (max-width: 396px) {
+  .banner .banner-text h1 {
+    font-size: 27px;
+  }
+  .banner .banner-text h2 {
+    font-size: 15px;
+  }
+  .about-web-elements h1 {
+    font-size: 27px;
+  }
+  .bigwrpper .second-banner .services h1 {
+    font-size: 27px;
+  }
+  .form-image form {
+    padding: 10% 5% 65% 5%;
+  }
+  .last-section .last-section-text h1 {
+    font-size: 27px;
+  }
+  .bigwrapper2 .last-banner .last-banner-text h1 {
+    font-size: 15px;
+  }
+}
+@media screen and (max-height: 450px) {
+  .overlay {
+    overflow-y: auto;
+  }
+  .overlay a {
+    font-size: 20px;
+  }
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+  span {
+    float: right;
+    border: 1px solid gray;
+    padding: 3px 10px;
+    margin: 18px 20px;
+    border-radius: 5px;
+  }
+}/*# sourceMappingURL=style.css.map */
